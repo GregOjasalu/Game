@@ -24,6 +24,8 @@
 
       prevCounter++;
       nextCounter++;
+      matchingCounter = 0;
+        
       let firstItem = document.querySelector('#draggable-list1 li#i' + nextCounter);
       firstItem.style.display = 'none';
       let nextItem = document.querySelector('#draggable-list1 li#i' + nextCounter).nextElementSibling;
